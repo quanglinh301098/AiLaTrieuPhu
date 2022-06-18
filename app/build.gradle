@@ -3,6 +3,9 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
+    id("androidx.navigation.safeargs.kotlin")
+
+
 }
 
 android {
@@ -13,7 +16,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.androidbaseproject_2"
+        applicationId "com.linhpham.ailatrieuphu"
         minSdk 26
         targetSdk 32
         versionCode 1
@@ -50,9 +53,8 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.38.1")
     kapt("com.google.dagger:hilt-android-compiler:2.38.1")
     //navigation
-    var navigationVersion = "2.4.2"
-    implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
-    implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
     //fragment ktx using by viewmodels
     implementation 'androidx.fragment:fragment-ktx:1.4.1'
 

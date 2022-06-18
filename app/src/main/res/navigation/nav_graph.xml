@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <action
+        android:id="@+id/actionMainToFragmentLogin"
+        app:destination="@+id/loginFragment"
+        app:enterAnim="@anim/slide_in_to_top"
+        app:exitAnim="@anim/fade_out"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/slide_out_to_bottom" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.linhpham.ailatrieuphu.ui.main.MainFragment"
+        android:label="MainFragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.linhpham.ailatrieuphu.ui.login.LoginFragment"
+        android:label="LoginFragment" />
+</navigation>
