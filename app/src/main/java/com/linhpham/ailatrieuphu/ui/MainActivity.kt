@@ -1,10 +1,9 @@
-package com.example.androidbaseproject_2.ui
+package com.linhpham.ailatrieuphu.ui
 
 import androidx.activity.viewModels
-import com.example.androidbaseproject_2.R
-import com.example.androidbaseproject_2.base.BaseActivity
-import com.example.androidbaseproject_2.databinding.ActivityMainBinding
-import com.example.androidbaseproject_2.utils.ext.showToast
+import com.linhpham.ailatrieuphu.base.BaseActivity
+import com.linhpham.ailatrieuphu.databinding.ActivityMainBinding
+import com.linhpham.ailatrieuphu.utils.ext.showToast
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

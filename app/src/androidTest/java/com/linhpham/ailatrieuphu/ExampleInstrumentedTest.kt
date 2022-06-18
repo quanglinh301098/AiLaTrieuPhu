@@ -1,4 +1,4 @@
-package com.example.androidbaseproject_2
+package com.linhpham.ailatrieuphu
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
