@@ -1,9 +1,11 @@
 package com.linhpham.ailatrieuphu.ui
 
+import android.content.Intent
 import android.os.Handler
 import androidx.activity.viewModels
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
+import com.google.firebase.ktx.Firebase
 import com.linhpham.ailatrieuphu.R
 import com.linhpham.ailatrieuphu.base.BaseActivity
 import com.linhpham.ailatrieuphu.databinding.ActivityMainBinding
