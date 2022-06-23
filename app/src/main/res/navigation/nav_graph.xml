@@ -12,10 +12,10 @@
         app:popExitAnim="@anim/slide_out_to_bottom" />
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.linhpham.ailatrieuphu.ui.main.MainFragment"
+        android:name="com.linhpham.ailatrieuphu.view.fragment.main.MainFragment"
         android:label="MainFragment" />
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.linhpham.ailatrieuphu.ui.login.LoginFragment"
+        android:name="com.linhpham.ailatrieuphu.view.fragment.login.LoginFragment"
         android:label="LoginFragment" />
 </navigation>
