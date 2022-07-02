@@ -22,6 +22,5 @@ class MainActivityViewModel @Inject constructor(private val sharedPreferencesHel
         currentUserId.value = sharedPreferencesHelper.getCurrentUserId()
     }
 
-
 }
 

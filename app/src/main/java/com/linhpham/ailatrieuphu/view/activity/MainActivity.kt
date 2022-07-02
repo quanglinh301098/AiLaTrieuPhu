@@ -18,7 +18,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::infl
     override fun initView() {
         navController =
             NavHostFragment.findNavController(supportFragmentManager.findFragmentById(R.id.navHost) as NavHostFragment)
-
     }
 
     override fun observer() {
