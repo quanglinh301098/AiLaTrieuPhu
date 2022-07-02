@@ -6,9 +6,8 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.linhpham.ailatrieuphu.R
 import com.linhpham.ailatrieuphu.databinding.ActivityMainBinding
-import com.linhpham.ailatrieuphu.backup.utils.ext.showToast
+import com.linhpham.ailatrieuphu.helper.showToast
 import dagger.hilt.android.AndroidEntryPoint
-import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::inflate) {
