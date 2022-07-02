@@ -12,6 +12,5 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>(FragmentLoginBinding::i
 
     override fun initView() {
 
-            throw RuntimeException("Test Crash") // Force a crash
     }
 }

@@ -34,6 +34,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::infl
         Handler().postDelayed({
             navController.navigate(R.id.actionMainToFragmentLogin)
         }, 3000)
+
     }
+
 
 }
